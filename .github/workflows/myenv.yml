@@ -12,7 +12,7 @@ jobs:
       - name: Run Automated Tests
         run: |
           echo "Running Unit and Integration Tests"
-          sleep 3  # Simulating test execution
+          sleep 5  # Simulating test execution
           echo "Tests Passed"
   onebox:
     runs-on: ubuntu-latest
